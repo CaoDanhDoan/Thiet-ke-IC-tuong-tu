@@ -1,0 +1,85 @@
+LTspice 24.1.8 for Windows
+Circuit: C:\Users\Lenovo\OneDrive\Desktop\final\final (1).net
+Start Time: Sat May 31 07:44:50 2025
+Options: ALLOW_AMBIGUOUS_MODELS
+C:\Users\Lenovo\OneDrive\Desktop\final\final (1).net(4): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M1 vdd N004 N004 vdd PMOS l=5u w=15u
+                     ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final (1).net(5): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M2 vdd N004 N008 vdd PMOS l=5u w=15u
+                     ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final (1).net(6): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M3 vdd N004 N007 vdd PMOS l=5u w=15u
+                     ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final (1).net(7): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M5 N008 N008 0 0 NMOS l=5u w=15u
+                 ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final (1).net(8): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M6 N007 N008 N009 0 NMOS l=5u w=15u
+                    ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final (1).net(9): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M7 N009 N007 0 0 NMOS l=5u w=15u
+                 ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final (1).net(10): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M10 N006 N008 N010 0 NMOS l=5u w=15u
+                     ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final (1).net(11): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M11 N010 N007 0 0 NMOS l=5u w=15u
+                  ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final (1).net(12): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M12 N001 N005 N006 0 NMOS l=5u w=15u
+                     ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final (1).net(13): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M13 N006 N003 N002 0 NMOS l=5u w=15u
+                     ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final (1).net(14): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M16 N006 N008 N011 0 NMOS l=2u w=15u
+                     ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final (1).net(15): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M17 N011 N007 0 0 NMOS l=2u w=15u
+                  ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final (1).net(16): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M19 Vout_Gain N008 N012 0 NMOS l=2u w=15u
+                          ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final (1).net(17): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M20 N012 N007 0 0 NMOS l=2u w=15u
+                  ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final (1).net(18): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M14 vdd N001 N002 vdd PMOS l=5u w=15u
+                      ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final (1).net(19): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M15 vdd N001 N001 vdd PMOS l=5u w=15u
+                      ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final (1).net(20): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M18 vdd N002 Vout_Gain vdd PMOS l=2u w=15u
+                           ^^^^
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Instance "M5": Length shorter than recommended for a level 1 MOSFET.
+Instance "M6": Length shorter than recommended for a level 1 MOSFET.
+Instance "M7": Length shorter than recommended for a level 1 MOSFET.
+Instance "M10": Length shorter than recommended for a level 1 MOSFET.
+Instance "M11": Length shorter than recommended for a level 1 MOSFET.
+Instance "M12": Length shorter than recommended for a level 1 MOSFET.
+Instance "M13": Length shorter than recommended for a level 1 MOSFET.
+Instance "M16": Length shorter than recommended for a level 1 MOSFET.
+Instance "M17": Length shorter than recommended for a level 1 MOSFET.
+Instance "M19": Length shorter than recommended for a level 1 MOSFET.
+Instance "M20": Length shorter than recommended for a level 1 MOSFET.
+Instance "M1": Length shorter than recommended for a level 1 MOSFET.
+Instance "M2": Length shorter than recommended for a level 1 MOSFET.
+Instance "M3": Length shorter than recommended for a level 1 MOSFET.
+Instance "M14": Length shorter than recommended for a level 1 MOSFET.
+Instance "M15": Length shorter than recommended for a level 1 MOSFET.
+Instance "M18": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.442 seconds.
+
+Files loaded:
+C:\Users\Lenovo\OneDrive\Desktop\final\final (1).net
+C:\Users\Lenovo\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\Users\Lenovo\OneDrive\Desktop\final\C5_models.txt
+

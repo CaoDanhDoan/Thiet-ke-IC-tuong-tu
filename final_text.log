@@ -1,0 +1,99 @@
+LTspice 24.1.8 for Windows
+Circuit: C:\Users\Lenovo\OneDrive\Desktop\final\final_text.net
+Start Time: Sat May 31 07:44:08 2025
+Options: ALLOW_AMBIGUOUS_MODELS
+C:\Users\Lenovo\OneDrive\Desktop\final\final_text.net(4): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M1 vdd N003 N003 vdd PMOS l=0.6u w=6.6u
+                     ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final_text.net(5): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M2 vdd N003 Vbias3 vdd PMOS l=0.6u w=6.6u
+                       ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final_text.net(6): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M3 vdd N003 Vbias4 vdd PMOS l=0.6u w=6.6u
+                       ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final_text.net(7): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M5 Vbias3 Vbias3 0 0 NMOS l=6.6u w=3u
+                     ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final_text.net(8): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M6 Vbias4 Vbias3 N007 0 NMOS l=0.6u w=3u
+                        ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final_text.net(9): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M7 N007 Vbias4 0 0 NMOS l=0.6u w=3u
+                   ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final_text.net(10): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M10 N005 Vbias3 N008 0 NMOS l=0.6u w=3u
+                       ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final_text.net(11): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M11 N008 Vbias4 0 0 NMOS l=0.6u w=3u
+                    ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final_text.net(12): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M12 N001 N004 N005 0 NMOS l=0.6u w=3u
+                     ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final_text.net(13): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M13 N005 N006 N002 0 NMOS l=0.6u w=3u
+                     ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final_text.net(14): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M16 N005 Vbias3 N009 0 NMOS l=0.6u w=3u
+                       ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final_text.net(15): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M17 N009 Vbias4 0 0 NMOS l=0.6u w=3u
+                    ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final_text.net(16): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M19 Vout_Gain Vbias3 N010 0 NMOS l=0.6u w=30u
+                            ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final_text.net(17): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M20 N010 Vbias4 0 0 NMOS l=0.6u w=30u
+                    ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final_text.net(19): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M14 vdd N001 N002 vdd PMOS l=0.6u w=6.6u
+                      ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final_text.net(20): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M15 vdd N001 N001 vdd PMOS l=0.6u w=6.6u
+                      ^^^^
+C:\Users\Lenovo\OneDrive\Desktop\final\final_text.net(21): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M18 vdd N002 Vout_Gain vdd PMOS l=0.6u w=66u
+                           ^^^^
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Instance "M5": Length shorter than recommended for a level 1 MOSFET.
+Instance "M5": Width narrower than recommended for a level 1 MOSFET.
+Instance "M6": Length shorter than recommended for a level 1 MOSFET.
+Instance "M6": Width narrower than recommended for a level 1 MOSFET.
+Instance "M7": Length shorter than recommended for a level 1 MOSFET.
+Instance "M7": Width narrower than recommended for a level 1 MOSFET.
+Instance "M10": Length shorter than recommended for a level 1 MOSFET.
+Instance "M10": Width narrower than recommended for a level 1 MOSFET.
+Instance "M11": Length shorter than recommended for a level 1 MOSFET.
+Instance "M11": Width narrower than recommended for a level 1 MOSFET.
+Instance "M12": Length shorter than recommended for a level 1 MOSFET.
+Instance "M12": Width narrower than recommended for a level 1 MOSFET.
+Instance "M13": Length shorter than recommended for a level 1 MOSFET.
+Instance "M13": Width narrower than recommended for a level 1 MOSFET.
+Instance "M16": Length shorter than recommended for a level 1 MOSFET.
+Instance "M16": Width narrower than recommended for a level 1 MOSFET.
+Instance "M17": Length shorter than recommended for a level 1 MOSFET.
+Instance "M17": Width narrower than recommended for a level 1 MOSFET.
+Instance "M19": Length shorter than recommended for a level 1 MOSFET.
+Instance "M20": Length shorter than recommended for a level 1 MOSFET.
+Instance "M1": Length shorter than recommended for a level 1 MOSFET.
+Instance "M1": Width narrower than recommended for a level 1 MOSFET.
+Instance "M2": Length shorter than recommended for a level 1 MOSFET.
+Instance "M2": Width narrower than recommended for a level 1 MOSFET.
+Instance "M3": Length shorter than recommended for a level 1 MOSFET.
+Instance "M3": Width narrower than recommended for a level 1 MOSFET.
+Instance "M14": Length shorter than recommended for a level 1 MOSFET.
+Instance "M14": Width narrower than recommended for a level 1 MOSFET.
+Instance "M15": Length shorter than recommended for a level 1 MOSFET.
+Instance "M15": Width narrower than recommended for a level 1 MOSFET.
+Instance "M18": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.430 seconds.
+
+Files loaded:
+C:\Users\Lenovo\OneDrive\Desktop\final\final_text.net
+C:\Users\Lenovo\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\Users\Lenovo\OneDrive\Desktop\final\C5_models.txt
+
